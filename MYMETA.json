@@ -1,0 +1,66 @@
+{
+   "abstract" : "The great new Task::BeLike::MATTK!",
+   "author" : [
+      "Matt Koscica <matt.koscica@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Build version 0.4218",
+   "license" : [
+      "artistic_2"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Task-BeLike-MATTK",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "App::Siesh" : "0",
+            "App::cpanminus" : "0",
+            "Authen::SASL" : "0",
+            "Bundle::CPAN" : "0",
+            "DateTime" : "0",
+            "Devel::REPL" : "0",
+            "Digest::SHA1" : "0",
+            "IO::Socket::SSL" : "0",
+            "JSON::XS" : "0",
+            "LWP::Protocol::https" : "0",
+            "LWP::UserAgent" : "0",
+            "Moose" : "0",
+            "Net::Graphite" : "0",
+            "Path::Class" : "0",
+            "Perl::Tidy" : "0",
+            "Redis" : "0",
+            "Ref::Util" : "0",
+            "Sys::SigAction" : "0",
+            "Term::ReadLine::Gnu" : "0",
+            "WebService::Prowl" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "Task::BeLike::MATTK" : {
+         "file" : "lib/Task/BeLike/MATTK.pm",
+         "version" : "0.01"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://opensource.org/licenses/artistic-license-2.0.php"
+      ]
+   },
+   "version" : "0.01",
+   "x_serialization_backend" : "JSON::PP version 2.27300"
+}
