@@ -19,7 +19,6 @@ my $builder = Module::Build->new(
     requires => {
         'App::Siesh'           => 0,
         'App::cpanminus'       => 0,
-        'Authen::SASL'         => 0,
         'Bundle::CPAN'         => 0,
         'DateTime'             => 0,
         'Devel::REPL'          => 0,
