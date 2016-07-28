@@ -1,0 +1,60 @@
+use constant IS_WINDOWS => $^O =~ m{MSWin}i;
+use constant IS_MAC     => $^O eq 'darwin';
+use constant IS_LINUX   => $^O eq 'linux';
+
+my @modules = qw/
+
+    App::Siesh
+    App::cpanminus
+    Authen::SASL
+    Bundle::CPAN
+    DateTime
+    Devel::REPL
+    Digest::SHA1
+    IO::Socket::SSL
+    JSON::XS
+    LWP::Protocol::https
+    LWP::UserAgent
+    Moose
+    Net::Graphite
+    Path::Class
+    Perl::Tidy
+    Redis
+    Ref::Util
+    Sys::SigAction
+    Term::ReadLine::Gnu
+
+/;
+
+my @mac_modules = qw/
+    WebService::Prowl
+/;
+
+{
+    module_name => 'Task::BeLike::MATTK',
+    requires    => {
+        map { $_ => 0 } @modules,
+
+        ( IS_WINDOWS ? (
+            # TODO
+        ) : () ),
+        ( IS_MAC ? (
+            map { $_ => 0 } @mac_modules,
+        ) : () ),
+        ( IS_LINUX ? (
+            # TODO
+        ) : () ),
+        ( $] >= 5.012 ? (
+        ) : ()),
+    },
+    meta_merge => {
+        resources => {
+            repository => 'http://github.com/atomicstack/Task-BeLike-MATTK/',
+        },
+    },
+    BUILDER => {
+        change_versions                  => 1,
+        copyright_first_year             => 2016,
+        add_pod_author_copyright_license => 1,
+    },
+}
