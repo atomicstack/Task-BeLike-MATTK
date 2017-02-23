@@ -39,6 +39,7 @@ requires:
   Ref::Util: '0'
   Sys::SigAction: '0'
   Term::ReadLine::Gnu: '0'
+  Text::CSV_XS: '0'
   WebService::Prowl: '0'
 resources:
   license: http://opensource.org/licenses/artistic-license-2.0.php
