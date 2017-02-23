@@ -30,6 +30,7 @@ requires:
   JSON::XS: '0'
   LWP::Protocol::https: '0'
   LWP::UserAgent: '0'
+  Module::Install: '0'
   Moose: '0'
   Net::Graphite: '0'
   Path::Class: '0'
