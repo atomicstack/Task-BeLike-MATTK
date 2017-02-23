@@ -18,7 +18,6 @@ provides:
     file: lib/Task/BeLike/MATTK.pm
     version: '0.01'
 requires:
-  App::Siesh: '0'
   App::cpanminus: '0'
   Bundle::CPAN: '0'
   DateTime: '0'
