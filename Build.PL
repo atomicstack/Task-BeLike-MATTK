@@ -17,7 +17,6 @@ my $builder = Module::Build->new(
         'Test::More' => 0,
     },
     requires => {
-        'App::Siesh'           => 0,
         'App::cpanminus'       => 0,
         'Bundle::CPAN'         => 0,
         'DateTime'             => 0,
@@ -31,7 +30,7 @@ my $builder = Module::Build->new(
         'Net::Graphite'        => 0,
         'Path::Class'          => 0,
         'Perl::Tidy'           => 0,
-        'Redis'                => 0,
+        # 'Redis'                => 0,
         'Ref::Util'            => 0,
         'Sys::SigAction'       => 0,
         'Term::ReadLine::Gnu'  => 0,

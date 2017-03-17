@@ -4,7 +4,7 @@
       "Matt Koscica <matt.koscica@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Module::Build version 0.4218",
+   "generated_by" : "Module::Build version 0.4224",
    "license" : [
       "artistic_2"
    ],
@@ -26,7 +26,6 @@
       },
       "runtime" : {
          "requires" : {
-            "App::Siesh" : "0",
             "App::cpanminus" : "0",
             "Bundle::CPAN" : "0",
             "DateTime" : "0",
@@ -61,5 +60,5 @@
       ]
    },
    "version" : "0.01",
-   "x_serialization_backend" : "JSON::PP version 2.27300"
+   "x_serialization_backend" : "JSON::PP version 2.27400_02"
 }

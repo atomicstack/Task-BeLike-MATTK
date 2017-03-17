@@ -4,7 +4,6 @@ use constant IS_LINUX   => $^O eq 'linux';
 
 my @modules = qw/
 
-    App::Siesh
     App::cpanminus
     Bundle::CPAN
     DateTime

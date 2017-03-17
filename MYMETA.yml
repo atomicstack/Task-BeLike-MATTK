@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   Module::Build: '0'
 dynamic_config: 0
-generated_by: 'Module::Build version 0.4218, CPAN::Meta::Converter version 2.150005'
+generated_by: 'Module::Build version 0.4224, CPAN::Meta::Converter version 2.150010'
 license: artistic_2
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -18,20 +18,15 @@ provides:
     file: lib/Task/BeLike/MATTK.pm
     version: '0.01'
 requires:
-  AnyEvent::HTTP: '0'
   App::cpanminus: '0'
   Bundle::CPAN: '0'
-  CPAN::SQLite: '0'
   DateTime: '0'
   Devel::REPL: '0'
   Digest::SHA1: '0'
   IO::Socket::SSL: '0'
-  JSON: '0'
   JSON::XS: '0'
   LWP::Protocol::https: '0'
   LWP::UserAgent: '0'
-  Module::Install: '0'
-  Module::Starter: '0'
   Moose: '0'
   Net::Graphite: '0'
   Path::Class: '0'
@@ -40,7 +35,6 @@ requires:
   Ref::Util: '0'
   Sys::SigAction: '0'
   Term::ReadLine::Gnu: '0'
-  Text::CSV_XS: '0'
   WebService::Prowl: '0'
 resources:
   license: http://opensource.org/licenses/artistic-license-2.0.php

@@ -1,4 +1,4 @@
-#! /Users/matt/perl-5.24.0/bin/perl
+#! /Users/matt/perl-5.26.0/bin/perl
 
 use strict;
 use Cwd;
@@ -11,7 +11,7 @@ sub magic_number_matches {
   open $FH, '<','_build/magicnum' or return 0;
   my $filenum = <$FH>;
   close $FH;
-  return $filenum == 751681;
+  return $filenum == 874615;
 }
 
 my $progname;
@@ -31,8 +31,13 @@ BEGIN {
   }
   unshift @INC,
     (
+     '/Users/matt/git_tree/main/lib',
      '/Users/matt/perl'
     );
+    if ($INC[-1] ne '.') {
+        push @INC, '.';
+    }
+
 }
 
 close(*DATA) unless eof(*DATA); # ensure no open handles to this script
