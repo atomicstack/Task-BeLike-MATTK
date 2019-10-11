@@ -31,7 +31,6 @@ BEGIN {
   }
   unshift @INC,
     (
-     '/Users/matt/git_tree/main/lib',
      '/Users/matt/perl'
     );
     if ($INC[-1] ne '.') {

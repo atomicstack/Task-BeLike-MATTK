@@ -19,6 +19,7 @@ provides:
     version: '0.01'
 requires:
   App::cpanminus: '0'
+  App::cpanoutdated: '0'
   Bundle::CPAN: '0'
   DateTime: '0'
   Devel::REPL: '0'
@@ -31,7 +32,6 @@ requires:
   Net::Graphite: '0'
   Path::Class: '0'
   Perl::Tidy: '0'
-  Redis: '0'
   Ref::Util: '0'
   Sys::SigAction: '0'
   Term::ReadLine::Gnu: '0'
