@@ -43,7 +43,7 @@
             "Ref::Util" : 0,
             "Sys::SigAction" : 0,
             "Term::ReadLine::Gnu" : 0,
-            "WebService::Prowl" : 0
+            "WebService::Prowl" : 0,
          }
       }
    },

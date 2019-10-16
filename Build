@@ -1,4 +1,4 @@
-#! /Users/matt/perl-5.26.0/bin/perl
+#! /Users/matt/perl-5.28.0/bin/perl
 
 use strict;
 use Cwd;
@@ -11,7 +11,7 @@ sub magic_number_matches {
   open $FH, '<','_build/magicnum' or return 0;
   my $filenum = <$FH>;
   close $FH;
-  return $filenum == 874615;
+  return $filenum == 799787;
 }
 
 my $progname;
