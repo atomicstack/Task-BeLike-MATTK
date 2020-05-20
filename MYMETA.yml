@@ -16,7 +16,7 @@ name: Task-BeLike-MATTK
 provides:
   Task::BeLike::MATTK:
     file: lib/Task/BeLike/MATTK.pm
-    version: '0.01'
+    version: '0.02'
 requires:
   App::cpanminus: '0'
   App::cpanoutdated: '0'
@@ -38,5 +38,5 @@ requires:
   WebService::Prowl: '0'
 resources:
   license: http://opensource.org/licenses/artistic-license-2.0.php
-version: '0.01'
+version: '0.02'
 x_serialization_backend: 'CPAN::Meta::YAML version 0.018'

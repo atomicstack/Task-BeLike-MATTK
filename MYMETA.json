@@ -31,6 +31,7 @@
             "Bundle::CPAN" : 0,
             "DateTime" : 0,
             "Devel::REPL" : 0,
+            "Devel::Trace" : 0,
             "Digest::SHA1" : 0,
             "IO::Socket::SSL" : 0,
             "JSON::XS" : 0,
@@ -50,7 +51,7 @@
    "provides" : {
       "Task::BeLike::MATTK" : {
          "file" : "lib/Task/BeLike/MATTK.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -59,6 +60,6 @@
          "http://opensource.org/licenses/artistic-license-2.0.php"
       ]
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_serialization_backend" : "JSON::PP version 2.97001"
 }

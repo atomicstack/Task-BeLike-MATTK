@@ -8,6 +8,7 @@ my @modules = qw/
     Bundle::CPAN
     DateTime
     Devel::REPL
+    Devel::Trace
     Digest::SHA1
     IO::Socket::SSL
     JSON::XS

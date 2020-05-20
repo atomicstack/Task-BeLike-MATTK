@@ -21,6 +21,7 @@ my $builder = Module::Build->new(
         'Bundle::CPAN'         => 0,
         'DateTime'             => 0,
         'Devel::REPL'          => 0,
+        'Devel::Trace'         => 0,
         'Digest::SHA1'         => 0,
         'IO::Socket::SSL'      => 0,
         'JSON::XS'             => 0,
