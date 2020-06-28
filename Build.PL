@@ -33,6 +33,7 @@ my $builder = Module::Build->new(
         'Perl::Tidy'           => 0,
         # 'Redis'                => 0,
         'Ref::Util'            => 0,
+        'Reply'                => 0,
         'Sys::SigAction'       => 0,
         'Term::ReadLine::Gnu'  => 0,
         'WebService::Prowl'    => 0,

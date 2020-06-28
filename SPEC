@@ -18,8 +18,8 @@ my @modules = qw/
     Net::Graphite
     Path::Class
     Perl::Tidy
-    Redis
     Ref::Util
+    Reply
     Sys::SigAction
     Term::ReadLine::Gnu
 
