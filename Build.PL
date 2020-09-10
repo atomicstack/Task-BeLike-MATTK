@@ -18,6 +18,7 @@ my $builder = Module::Build->new(
     },
     requires => {
         'App::cpanminus'       => 0,
+        'App::cpanoutdated'    => 0,
         'Bundle::CPAN'         => 0,
         'DateTime'             => 0,
         'Devel::REPL'          => 0,

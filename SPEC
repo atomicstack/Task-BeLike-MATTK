@@ -5,6 +5,7 @@ use constant IS_LINUX   => $^O eq 'linux';
 my @modules = qw/
 
     App::cpanminus
+    App::cpanoutdated
     Bundle::CPAN
     DateTime
     Devel::REPL
