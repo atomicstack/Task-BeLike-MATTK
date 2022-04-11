@@ -37,6 +37,7 @@
             "JSON::XS" : 0,
             "LWP::Protocol::https" : 0,
             "LWP::UserAgent" : 0,
+            "Moo" : 0,
             "Moose" : 0,
             "Net::Graphite" : 0,
             "Path::Class" : 0,
@@ -45,14 +46,15 @@
             "Reply" : 0,
             "Sys::SigAction" : 0,
             "Term::ReadLine::Gnu" : 0,
-            "WebService::Prowl" : 0,
+            "Term::Spinner::Color" : 0,
+            "WebService::Prowl" : 0
          }
       }
    },
    "provides" : {
       "Task::BeLike::MATTK" : {
          "file" : "lib/Task/BeLike/MATTK.pm",
-         "version" : "0.04"
+         "version" : "0.05"
       }
    },
    "release_status" : "stable",
@@ -61,6 +63,6 @@
          "http://opensource.org/licenses/artistic-license-2.0.php"
       ]
    },
-   "version" : "0.04",
+   "version" : "0.05",
    "x_serialization_backend" : "JSON::PP version 2.97001"
 }

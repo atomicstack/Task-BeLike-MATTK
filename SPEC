@@ -15,6 +15,7 @@ my @modules = qw/
     JSON::XS
     LWP::Protocol::https
     LWP::UserAgent
+    Moo
     Moose
     Net::Graphite
     Path::Class
@@ -23,6 +24,7 @@ my @modules = qw/
     Reply
     Sys::SigAction
     Term::ReadLine::Gnu
+    Term::Spinner::Color
 
 /;
 

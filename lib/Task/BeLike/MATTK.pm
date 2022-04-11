@@ -6,48 +6,20 @@ use warnings;
 
 =head1 NAME
 
-Task::BeLike::MATTK - the middle bowl of porridge.
+Task::BeLike::MATTK
 
 =head1 VERSION
 
-Version 0.04
+Version 0.05
 
 =cut
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 
 =head1 SYNOPSIS
 
-Quick summary of what the module does.
-
-Perhaps a little code snippet.
-
-    use Task::BeLike::MATTK;
-
-    my $foo = Task::BeLike::MATTK->new();
-    ...
-
-=head1 EXPORT
-
-A list of functions that can be exported.  You can delete this section
-if you don't export anything, such as for a purely object-oriented module.
-
-=head1 SUBROUTINES/METHODS
-
-=head2 function1
-
-=cut
-
-sub function1 {
-}
-
-=head2 function2
-
-=cut
-
-sub function2 {
-}
+A selection of useful modules to install with every Perl build.
 
 =head1 AUTHOR
 
@@ -55,49 +27,15 @@ Matt Koscica, C<< <matt.koscica at gmail.com> >>
 
 =head1 BUGS
 
-Please report any bugs or feature requests to C<bug-task-belike-mattk at rt.cpan.org>, or through
-the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Task-BeLike-MATTK>.  I will be notified, and then you'll
-automatically be notified of progress on your bug as I make changes.
-
-
-
+Sure.
 
 =head1 SUPPORT
 
-You can find documentation for this module with the perldoc command.
-
-    perldoc Task::BeLike::MATTK
-
-
-You can also look for information at:
-
-=over 4
-
-=item * RT: CPAN's request tracker (report bugs here)
-
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Task-BeLike-MATTK>
-
-=item * AnnoCPAN: Annotated CPAN documentation
-
-L<http://annocpan.org/dist/Task-BeLike-MATTK>
-
-=item * CPAN Ratings
-
-L<http://cpanratings.perl.org/d/Task-BeLike-MATTK>
-
-=item * Search CPAN
-
-L<http://search.cpan.org/dist/Task-BeLike-MATTK/>
-
-=back
-
-
-=head1 ACKNOWLEDGEMENTS
-
+None.
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2016 Matt Koscica.
+Copyright 2016-2022 Matt Koscica.
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of the the Artistic License (2.0). You may obtain a
