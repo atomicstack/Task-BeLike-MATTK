@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use 5.006;
-use strict;
+use 5.14.0;
 use warnings;
 use Module::Build;
 
@@ -24,6 +23,7 @@ my $builder = Module::Build->new(
         'Devel::REPL'          => 0,
         'Devel::Trace'         => 0,
         'Digest::SHA1'         => 0,
+        'Dist::Zilla'          => 0,
         'IO::Socket::SSL'      => 0,
         'JSON::XS'             => 0,
         'LWP::Protocol::https' => 0,
@@ -33,7 +33,6 @@ my $builder = Module::Build->new(
         'Net::Graphite'        => 0,
         'Path::Class'          => 0,
         'Perl::Tidy'           => 0,
-        # 'Redis'                => 0,
         'Ref::Util'            => 0,
         'Reply'                => 0,
         'Sys::SigAction'       => 0,

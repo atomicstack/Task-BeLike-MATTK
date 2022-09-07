@@ -28,7 +28,7 @@
    "provides" : {
       "Task::BeLike::MATTK" : {
          "file" : "lib/Task/BeLike/MATTK.pm",
-         "version" : "0.05"
+         "version" : "0.06"
       }
    },
    "release_status" : "stable",
@@ -37,6 +37,6 @@
          "http://opensource.org/licenses/artistic-license-2.0.php"
       ]
    },
-   "version" : "0.05",
+   "version" : "0.06",
    "x_serialization_backend" : "JSON::PP version 2.27300"
 }

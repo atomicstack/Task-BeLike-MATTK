@@ -3,7 +3,6 @@ use constant IS_MAC     => $^O eq 'darwin';
 use constant IS_LINUX   => $^O eq 'linux';
 
 my @modules = qw/
-
     App::cpanminus
     App::cpanoutdated
     Bundle::CPAN
@@ -11,6 +10,7 @@ my @modules = qw/
     Devel::REPL
     Devel::Trace
     Digest::SHA1
+    Dist::Zilla
     IO::Socket::SSL
     JSON::XS
     LWP::Protocol::https
@@ -25,11 +25,10 @@ my @modules = qw/
     Sys::SigAction
     Term::ReadLine::Gnu
     Term::Spinner::Color
-
+    WebService::Prowl
 /;
 
 my @mac_modules = qw/
-    WebService::Prowl
 /;
 
 {

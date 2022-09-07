@@ -1,6 +1,6 @@
 package Task::BeLike::MATTK;
 
-use 5.006;
+use 5.14.0;
 use strict;
 use warnings;
 
@@ -10,11 +10,11 @@ Task::BeLike::MATTK
 
 =head1 VERSION
 
-Version 0.05
+Version 0.06
 
 =cut
 
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 
 =head1 SYNOPSIS
