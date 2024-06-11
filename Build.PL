@@ -32,6 +32,7 @@ my $builder = Module::Build->new(
         'Moose'                => 0,
         'Net::Graphite'        => 0,
         'Path::Class'          => 0,
+        'Perl::LanguageServer' => 0,
         'Perl::Tidy'           => 0,
         'Ref::Util'            => 0,
         'Reply'                => 0,

@@ -19,6 +19,7 @@ my @modules = qw/
     Moose
     Net::Graphite
     Path::Class
+    Perl::LanguageServer
     Perl::Tidy
     Ref::Util
     Reply
